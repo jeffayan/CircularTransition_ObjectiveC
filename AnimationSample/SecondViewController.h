@@ -10,4 +10,7 @@
 
 @interface SecondViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIButton* menuButton;
+
+
 @end

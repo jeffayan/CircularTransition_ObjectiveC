@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    _menuButton.layer.cornerRadius = _menuButton.frame.size.width/2;
 }
 
 - (IBAction)dismissAction:(id)sender {

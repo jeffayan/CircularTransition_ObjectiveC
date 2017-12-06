@@ -21,6 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     transition = [[CircularTransition alloc] init];
+    _menuButton.layer.cornerRadius = _menuButton.frame.size.width/2;
 }
 
 
